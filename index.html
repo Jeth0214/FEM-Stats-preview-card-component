@@ -5,29 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Get insights that help your business grow.
+    <main class="container">
+      <div class="card">
+        <div class="card__header">
+            <img class="card__image"  src="./images/image-header-desktop.jpg" alt="" area-hidden="true">
+            <div class="card__image--overlay">
+            </div>
+        </div>
+        <div class="col card__body">
+          <h1 class="card__title">Get <span class="text-primary">insights</span>  that help your business grow.</h1>
+          <p class="card__description">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.
+          </p>
+          <div class="stats">
+              <div class="stat">
+                <h2 class="stat__heading"> 10k+ </h2>
+                <p>
+                  companies
+                </p>
+              </div>
+              <div class="stat">
+                <h2 class="stat__heading"> 314 </h2>
+                <p>
+                  templates
+                </p>
+              </div>
+              <div class="stat">
+                <h2 class="stat__heading"> 12M+ </h2>
+                <p>
+                  queries
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
 
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="container">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Jeth0214">Roland Jethro Suyom</a>.
+    </div>
+  </footer>
 </body>
 </html>
