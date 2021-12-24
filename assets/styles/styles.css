@@ -161,6 +161,7 @@ p {
     .card__body {
         padding: 2rem;
         width: 55%;
+        text-align: left;
     }
     .stats {
         display: flex;
